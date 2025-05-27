@@ -1,0 +1,69 @@
+name: tanavue_app
+description: "Your personal plant care assistant."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none' # Remove this line if you intend to publish a package.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+version: 1.0.0+1
+
+# Environment settings define the Dart SDK version constraints.
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjust based on your Flutter/Dart SDK version
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  # Add other packages here if you need them (e.g., for state management, http, etc.)
+  # provider: ^6.0.5
+  # http: ^1.1.0
+  # go_router: ^10.0.0
+
+# Dev dependencies are packages that are only needed for development or testing.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/
+
+  # An example of declaring fonts from asset files:
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Inter-SemiBold.ttf
+  #         weight: 600
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
