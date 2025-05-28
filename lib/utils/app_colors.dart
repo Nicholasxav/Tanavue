@@ -50,4 +50,7 @@ class AppColors {
   static const Color weatherNowBg = Color(0xFF8D8D8D); // Dark Grey
   static const Color weatherFutureBg = Color(0xFFE0E5EC); // Light Grey/Blueish
   static const Color weatherSun = Color(0xFFFFA000); // Orange for Sun
+
+  static const Color divider = Color(0xFFE0E0E0);
+  static const Color redWarning = Colors.red;
 }

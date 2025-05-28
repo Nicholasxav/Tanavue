@@ -79,4 +79,14 @@ class AppStrings {
   static const String navScan = 'Scan';
   static const String navGarden = 'My Garden';
   static const String navProfile = 'Profile';
+
+  static const String profileSettings = "Profil & Pengaturan";
+  static const String account = "Akun";
+  static const String editProfile = "Edit Profil";
+  static const String editPassword = "Edit Password";
+  static const String notifications = "Notifikasi";
+  static const String appNotifications = "App Notifications";
+  static const String others = "Lain-Lain";
+  static const String help = "Help";
+  static const String logout = "Keluar";
 }
